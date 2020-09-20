@@ -10,7 +10,7 @@ headers = {
   'Authorization': 'generate your token'
 }
 
-url = "https://apiv2.shiprocket.in/v1/external/orders?page={}"
+url = ""
 urls = [url.format(page) for page in range(1, 10)]
 all_data =[]
 for url in urls:
